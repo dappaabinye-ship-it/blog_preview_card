@@ -54,6 +54,10 @@ body{
   margin:0;
 }
 
+.active:hover{
+  color:hsl(47 88 63);
+}
+
 .maintext{
   display:flex;
   flex-wrap: wrap;
