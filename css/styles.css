@@ -19,6 +19,7 @@ body{
   display:flex;
   flex-direction:column;
   gap:20px;
+  width:376px;
 }
 
 .svg{
@@ -35,9 +36,24 @@ body{
 .lowercontent{
   display:flex;
   flex-direction:column;
-  gap:8px;
+  gap:13px;
 }
 
 .published{
   font-size:14px;
+  padding-top:5px;
+  padding-bottom:3px;
+}
+
+.active{
+  font-size:20px;
+  padding:0;
+  margin:0;
+}
+
+.maintext{
+  display:flex;
+  flex-wrap: wrap;
+  margin:0;
+  font-size:16px;
 }
